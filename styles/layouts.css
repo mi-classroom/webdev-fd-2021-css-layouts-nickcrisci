@@ -26,8 +26,10 @@
   border-radius: var(--radius-m);
   overflow: hidden;
   box-shadow: var(--n-shadow-l);
+  width: clamp(200px, 50%, 80%);
 }
 
 .card figcaption {
+  font-size: clamp(var(--m), var(--l), var(--xl));
   padding: var(--l) var(--m) var(--xl) var(--m);
 }
