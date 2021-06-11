@@ -33,3 +33,8 @@
   font-size: clamp(var(--m), var(--l), var(--xl));
   padding: var(--l) var(--m) var(--xl) var(--m);
 }
+
+figcaption h2 {
+  position: absolute;
+  top: 0;
+}
